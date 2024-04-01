@@ -3,14 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="./assets/style/style.min.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" rel="preload" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-		<script src="./scripts/slider.js" defer></script>
 		<title>Portfolio Nina Carducci Photographe Professionnelle</title>
 		<meta name="description" content="Je suis Nina Carducci et bienvenue dans ma gallerie de photos, vous y trouverez tous les moments clés et les émotions que j'ai pus saisir pour les personnes qui m'ont accordées leurs confiance. Lors d'évènements important présent dans la vie, professionnel, festif et unique">
 		<meta name="robots" content="index,follow"/>
+		<link rel="stylesheet" type="text/css" href="./assets/style/style.min.css" loading="lazy">
 	</head>
 <body>
 <header>
@@ -141,7 +140,8 @@
 		</div>
 	</div>
 </footer>
-<script src="./scripts/gallery.js"  type="module" ></script>
-<script src="./scripts/buttonsFilter.js" type="module" ></script>
+<script src="./scripts/slider.min.js" ></script>
+<script src="./scripts/gallery.min.js"  type="module" ></script>
+<script src="./scripts/buttonsFilter.min.js" type="module" ></script>
 </body>
 </html>
