@@ -32,7 +32,7 @@ header .name {
 nav ul {
 	display: flex;
 	list-style-type: none;
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 0;
 }
 nav li {
@@ -137,7 +137,7 @@ background-color: #fff;
 }
 #about-me p {
 	width: 80%;
-	font-size: 14px;
+	font-size: 16px;
 }
 .title{
 	text-align: center;
@@ -189,7 +189,7 @@ background-color: #fff;
 .button-filter:active,
 .button-filter:focus {
     outline: none;
-    color: white;
+    color: black;
     background-color: #BEB45A;
 	border-radius: 6px;
     padding: 0.5rem 1rem;
